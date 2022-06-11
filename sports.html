@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+		<title>OYO Magazine Final (Backup 1542998098010)</title>
+		<meta name="viewport" content="width=950px" />
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+
+	<body id="body">
+		<div
+			class="modal fade bd-example-modal-lg"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby=""
+			aria-hidden="true"
+		>
+			<div class="modal-dialog mw-100 w-75">
+				<div class="modal-content">
+					<iframe
+						id="oyoIframe"
+						style="border: none; height: 100vh; width: 100%;"
+						title="Iframe Example"
+					></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div
+			class="modal fade bd-example-modal-sm"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="mySmallModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Social Share</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="react-share-container"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="background-container">
+			<div id="ad950"></div>
+
+			<div class="nav-background">
+				<section id="nav">
+					<a href="index.html" id="links" style="margin-right: 20px !important;"
+						><span id="company" class="navlinks">OYO MAGAZINE</span></a
+					><a href="news.html" id="links"><span class="navlinks">NEWS</span></a
+					><a href="tech.html" id="links"><span class="navlinks">TECH/SCIENCE</span></a>
+					<a href="entertainment.html" id="links"><span class="navlinks">ENTERTAINMENT</span></a
+					><a href="life.html" id="links"><span class="navlinks">LIFESTYLE</span></a
+					><a href="ideas.html" id="links"><span class="navlinks">IDEAS</span></a
+					><a href="sports.html" id="links"><span class="navlinks active">SPORTS</span></a>
+					<i class="fa fa-search" id="searchicon"></i>
+				</section>
+			</div>
+			<!-- <span id="pagetitle">SPORTS</span> -->
+			<section id="artsectionnews">
+				<div id="slidearea">
+					<div class="slideindex itactive" style="left: 48%;"></div>
+					<div class="slideindex" style="left: 50%;"></div>
+					<div class="slideindex" style="left: 52%;"></div>
+					<div
+						id="slide1"
+						class="ideasslide iactive"
+						style="
+							background: url(assets/img/ggp.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="slidecontentwrapper">
+							<div class="slidecontent">
+								<div id="newsbigcat" class="bigcat"><span class="cattext">FORMULA 1</span></div>
+								<span class="slidetitle"
+									>Lewis Hamilton consegue vitória "milagrosa" &nbsp;no German Grand Prix depois de
+									ter feito a maior parte da saída antecipada de Sebastian Vettel<br /><br
+								/></span>
+								<span class="slidebody" style="margin-top: -45px;"
+									>Hamilton volta ao topo do Campeonato de Pilotos, depois de vencer o companheiro
+									de equipe Valtteri Bottas, da Mercedes, e Kimi Raikkonen, da Ferrari.<br /></span
+								><a
+									href="https://www.mirror.co.uk/sport/formula-1/breaking-lewis-hamilton-wins-german-12962250"
+									target="_blank"
+									class="pagelinks"
+									><button class="btn btn-primary slidebtn" type="button">Ler Mais</button></a
+								>
+								<button
+									class="btn btn-primary highlightedbtn share-btn"
+									onclick="webShare({title:'test'})"
+								>
+									<i class="fa fa-share-alt"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div
+						id="slide2"
+						class="ideasslide"
+						style="
+							background: url(assets/img/mbp.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="slidecontentwrapper">
+							<div class="slidecontent">
+								<div
+									id="newsbigcat"
+									class="bigcat"
+									style="width: 63px; background: rgb(146, 2, 214);"
+								>
+									<span class="cattext">FUTEBOL</span>
+								</div>
+								<span class="slidetitle"
+									>"Kylian Mbappe é melhor do que a lenda francesa Thierry Henry" - Lee Dixon<br /></span
+								><span class="slidebody" style="margin-top: 80px;"
+									>KYLIAN MBAPPE é mais impressionante em sua idade do que Thierry Henry foi para a
+									França.<br
+								/></span>
+								<a
+									href="https://www.dailystar.co.uk/sport/football/716579/Kylian-Mbappe-BETTER-France-legend-Thierry-Henry-Lee-Dixon-World-Cup-final-Croatia-PSG"
+									target="_blank"
+									class="pagelinks"
+									><button class="btn btn-primary slidebtn" type="button">Ler Mais</button></a
+								>
+								<button
+									class="btn btn-primary highlightedbtn share-btn"
+									onclick="webShare({title:'test'})"
+								>
+									<i class="fa fa-share-alt"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div
+						id="slide3"
+						class="ideasslide"
+						style="
+							background: url(assets/img/gr.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="slidecontentwrapper">
+							<div class="slidecontent">
+								<div
+									id="newsbigcat"
+									class="bigcat"
+									style="width: 65px; background: rgb(146, 2, 214);"
+								>
+									<span class="cattext">FUTEBOL</span>
+								</div>
+								<span class="slidetitle"
+									>Copa do Mundo de 2018: Os 20 melhores jogadores do torneio depois da vitória da
+									França na Rússia<br /></span
+								><span class="slidebody"
+									>A Copa do Mundo chegou ao fim mas quem foram os melhores jogadores do torneio na
+									Rússia?</span
+								>
+								<a
+									href="https://www.dailystar.co.uk/sport/football/716724/World-Cup-2018-best-players-Golden-Ball-France-Croatia-Russia-2018-England-sportgalleries"
+									target="_blank"
+									class="pagelinks"
+									><button class="btn btn-primary slidebtn" type="button">Ler Mais</button></a
+								>
+								<button
+									class="btn btn-primary highlightedbtn share-btn"
+									onclick="webShare({title:'test'})"
+								>
+									<i class="fa fa-share-alt"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="leftsideart">
+					<div
+						id="srq465test"
+						class="sqr465"
+						style="
+							background: url(assets/img/tk.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="sqr465contentwrapper">
+							<div
+								id="testbigcat"
+								class="bigcat"
+								style="margin-left: 20px; margin-top: 20px; width: 127px; background: darkorange;"
+							>
+								<span class="cattext">JOGOS OLÍMPICOS</span>
+							</div>
+							<div class="sqr465content">
+								<a
+									href="https://www.theguardian.com/sport/2018/jul/22/miraitowa-and-someity-tokyo-2020-olympics-mascots-revealed"
+									target="_blank"
+									class="pagelinks"
+									><span class="sqr465title"
+										>Miraitowa e Someity: Mascotes das Olimpíadas de Tóquio 2020 reveladas<br /></span
+								></a>
+								<span class="sqr465body"
+									>Dois anos antes do início dos jogos, os alunos posam para fotos com os
+									personagens fantasiados<br
+								/></span>
+							</div>
+						</div>
+					</div>
+					<div class="art465small" style="margin-top: 10px;">
+						<div
+							id="art465smallimgtest"
+							class="art465smallsqrs"
+							style="
+								background: url(assets/img/w.jpg);
+								background-position: center;
+								background-size: cover;
+							"
+						>
+							<div
+								id="testbigcat"
+								class="bigcat"
+								style="margin-left: 20px; margin-top: 20px; width: 50px; background: seagreen;"
+							>
+								<span class="cattext">TÉNIS</span>
+							</div>
+						</div>
+						<div id="art465smallcontentwrapper" class="art465smallsqrs">
+							<div class="art465smallcontent">
+								<a
+									href="https://www.mirror.co.uk/sport/tennis/wimbledon-2018-champion-angelique-kerber-12926603"
+									target="_blank"
+									class="pagelinks"
+									><span class="art465smalltitle" style="margin-top: -18px;"
+										>Campeã do Wimbledon 2018 Angelique Kerber confiante de lidar com título...<br /></span
+								></a>
+								<span class="art465smallauthor">Por&nbsp;<strong>Tom Hopkinson</strong></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="rightsideart">
+					<div id="art465small1colortest" class="art465small">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; width: 65px;"
+						>
+							<span class="cattext">FUTEBOL</span>
+						</div>
+						<div class="art465small1colortitlewrapper">
+							<a
+								href="https://www.dailystar.co.uk/sport/football/718073/Man-Utd-Barcelona-Jose-Mourinho-Paul-Pogba-transfer-news-MUFC-Premier-League"
+								target="_blank"
+								class="pagelinks"
+								style="margin-top: 40px;"
+								><span
+									class="art465small1colortitle"
+									style="width: 350px; margin-left: -9px; margin-top: -9px;"
+									>Notícias de transferência de Man Utd: José Mourinho 'exige estrela de Barcelona'
+									no acordo de Paul Pogba<br /></span
+							></a>
+						</div>
+					</div>
+				</div>
+				<div id="recent">
+					<div id="recenttitlewrapper"><span id="recentitle">Notícias Recentes</span></div>
+					<div class="recentover">
+						<div class="recentart">
+							<div
+								id="recentpictest"
+								class="recentartpic"
+								style="
+									background: url(assets/img/al.jpg);
+									background-size: cover;
+									background-position: center;
+								"
+							></div>
+							<div class="recenttext">
+								<a
+									href="https://www.thesun.co.uk/sport/6837018/liverpool-alisson-2015/"
+									target="_blank"
+									class="pagelinks"
+									><span class="recentarttitle" style="margin-top: 8px;"
+										>O Liverpool 'esnobou 4 milhões em Alisson...<br /></span></a
+								><span class="recentartauthor">Por&nbsp;<strong>Jamie Gordon</strong></span>
+							</div>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.thesun.co.uk/sport/football/6833205/liverpool-midfielder-naby-keita-used-to-pretend-to-be-steven-gerrard-now-he-hopes-to-emulate-him-at-anfield/"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg"
+									><strong>"O meio-campista do Liverpool Naby Keita..."</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Rebecca Chaplin</strong></span
+							>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.thesun.co.uk/sport/football/6837423/arsenal-transfer-news-unai-emery-alex-iwobi-lazio/"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg"
+									><strong>£ 22,5 milhões para vender Alex Iwobi...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Matt Heath-Smith</strong></span
+							>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.thesun.co.uk/sport/football/6837385/chelsea-and-bayern-munich-plot-move-anthony-martial/"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg"
+									><strong>Chelsea e Bayern para Anthony Martial...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Rebecca Chaplin</strong></span
+							>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.thesun.co.uk/sport/football/6838161/andres-iniesta-fernando-torres-defeats-j-league-debuts/"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg"
+									><strong>Iniesta e Torres ambos sofrem derrotas...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Duncan Wright</strong></span
+							>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.dailystar.co.uk/sport/football/718072/Chelsea-transfer-news-Miralem-Pjanic-Juventus-Man-City-Barcelona-gossip-deal-latest"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg"
+									><strong>Blues poderia estragar outro negócio...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Rhys Turrell</strong></span
+							>
+						</div>
+					</div>
+				</div>
+				<div id="newsartsmallsqrs">
+					<div class="smallsqrarts" style="margin-bottom: 10px;">
+						<div
+							id="smallsqrpictest"
+							class="smallsqrpic"
+							style="
+								background: url(assets/img/bolt.jpg);
+								background-size: cover;
+								background-position: center;
+							"
+						>
+							<div
+								id="testbigcat"
+								class="bigcat"
+								style="margin-left: 20px; margin-top: 20px; width: 60px;"
+							>
+								<span class="cattext">FUTEBOL</span>
+							</div>
+						</div>
+						<div class="smallsqrcontent">
+							<a
+								href="https://www.theguardian.com/sport/2018/jul/21/usain-bolt-football-dream-central-coast-mariners"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg" style="font-size: 14px; margin-top: 8px;"
+									><strong>O sonho de futebol de Usain Bolt continua...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Paul MacInnes</strong></span
+							>
+						</div>
+					</div>
+					<div
+						id="smallsqrfullpictest"
+						class="smallsqrarts"
+						style="
+							margin-top: 10px;
+							background: url(assets/img/bx.jpg);
+							background-position: center;
+							background-size: cover;
+							margin-bottom: 10px;
+						"
+					>
+						<div class="smallsqrfullpiccontentwrapper">
+							<div
+								id="testbigcat"
+								class="bigcat"
+								style="width: 45px; margin-top: 10px; background: green;"
+							>
+								<span class="cattext">BOXE</span>
+							</div>
+							<a
+								href="https://www.mirror.co.uk/sport/boxing/joseph-parker-furious-referee-anthony-12958075"
+								target="_blank"
+								class="pagelinks"
+								><span class="smallsrqfullpictitle"
+									>Joseph Parker furioso com árbitro na derrota de Anthony Joshua<br /></span
+							></a>
+							<span style="margin-top: 15px; font-size: 12px;">Por TOM HOPKINSON</span>
+						</div>
+					</div>
+				</div>
+				<div id="narrownewsart">
+					<div
+						id="narrowart1"
+						class="narrowfullarts"
+						style="
+							background: url(assets/img/tr.jpg);
+							background-size: cover;
+							background-position: center;
+						"
+					>
+						<div class="narrowartcontentwrapper">
+							<a
+								href="https://www.thesun.co.uk/sport/football/6284054/transfer-news-live-updates-latest-ronaldo-real-madrid-liverpool-spurs/"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowartstitle"
+									>Transferências de Man United, Arsenal e Chelsea e rumores...<br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 20px;"
+								>Por&nbsp;<strong>SunSports</strong></span
+							>
+						</div>
+					</div>
+					<div
+						id="narrowart1"
+						class="narrowfullarts"
+						style="
+							background: url(assets/img/wl.jpg);
+							background-size: cover;
+							background-position: center;
+						"
+					>
+						<div class="narrowartcontentwrapper">
+							<a
+								href="https://www.dailystar.co.uk/sport/football/718065/Chelsea-Barcelona-Willian-transfer-news-gossip-CFC-Stamford-Bridge-rumours-fans-55m-move"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowartstitle"
+									>Willian para o Barcelona: torcedores do Chelsea têm opinião...<br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 20px;"
+								>Por&nbsp;<strong>Callum Vurley</strong></span
+							>
+						</div>
+					</div>
+					<div
+						id="narrowart1"
+						class="narrowfullarts"
+						style="
+							background: url(assets/img/srg.jpg);
+							background-size: cover;
+							background-position: center;
+						"
+					>
+						<div class="narrowartcontentwrapper">
+							<a
+								href="https://www.express.co.uk/sport/football/992655/Man-Utd-transfer-news-Juventus-Lazio-Sergej-Milinkovic-Savic"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowartstitle"
+									>Juventus intensifica a perseguição da estrela de Lazio, Milinkovic-Savic<br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 20px;"
+								>Por&nbsp;<strong>Duncan Robinson</strong></span
+							>
+						</div>
+					</div>
+				</div>
+				<div class="narrowart465">
+					<div id="narrowart465-1">
+						<div class="narrowarts465contentwrapper">
+							<div
+								id="narrowarts465pic1"
+								class="narrowarts465pic"
+								style="
+									background: url(assets/img/kr.jpg);
+									background-size: cover;
+									background-position: center;
+								"
+							></div>
+							<span class="narroarts465cat">Basketball</span
+							><a
+								href="https://www.sport.es/es/noticias/baloncesto-barca/barca-oficializa-fichaje-kuric-luchador-6949125"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowarts465title" style="font-size: 13px;"
+									>Kuric, um exemplo de superação...<br /></span
+							></a>
+						</div>
+					</div>
+					<div id="narrowart465-1">
+						<div class="narrowarts465contentwrapper">
+							<div
+								id="narrowarts465pic1"
+								class="narrowarts465pic"
+								style="
+									background: url(assets/img/lbr.jpg);
+									background-size: cover;
+									background-position: center;
+								"
+							></div>
+							<span class="narroarts465cat">Futebol</span
+							><a
+								href="https://www.abola.pt/Nnh/Noticias/Ver/741582"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowarts465title">Ganhar uma liga contra Real...</span></a
+							>
+						</div>
+					</div>
+				</div>
+				<div
+					id="narrowartsmalltest"
+					class="narrowartssmall"
+					style="
+						margin-right: 10px;
+						background: url(assets/img/tma.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="narrowartsmallcontentwrapper">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; width: 36px; background: darkblue;"
+						>
+							<span class="cattext">NBA</span>
+						</div>
+						<a
+							href="http://nba.kwesesports.com/article/team-africa-could-win-2018-nba-africa-game"
+							target="_blank"
+							class="pagelinks"
+							><span class="narrowartsmalltitle" style="margin-top: 1px; font-size: 15px;"
+								>Team Africa Pode Ganhar O Nba Africa Game&nbsp;<strong>2018</strong><br /></span
+						></a>
+					</div>
+				</div>
+				<div
+					id="narrowartsmalltest"
+					class="narrowartssmall"
+					style="
+						margin-left: 10px;
+						background: url(assets/img/twd.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="narrowartsmallcontentwrapper">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; width: 36px; background: darkblue;"
+						>
+							<span class="cattext">NBA</span>
+						</div>
+						<a
+							href="http://nba.kwesesports.com/article/watch-out-team-world-evan-fournier-is-coming"
+							target="_blank"
+							class="pagelinks"
+							style="
+								background: url(assets/img/tma.jpg);
+								background-position: center;
+								background-size: cover;
+							"
+							><span class="narrowartsmalltitle" style="margin-top: 1px; font-size: 15px;"
+								>Cuidado Com Team World, Evan Fournier Está Chegando</span
+							></a
+						>
+					</div>
+				</div>
+				<div id="rightsideart" style="margin-left: 0; margin-right: 10px;">
+					<div id="art465small1colortest" class="art465small" style="background: seagreen;">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; background: brown; width: 35px;"
+						>
+							<span class="cattext">UFC</span>
+						</div>
+						<div class="art465small1colortitlewrapper">
+							<a
+								href="https://www.express.co.uk/sport/ufc/992025/Conor-McGregor-Retirement-Three-More-Fights-UFC-News"
+								target="_blank"
+								class="pagelinks"
+								><span
+									class="art465small1colortitle"
+									style="width: 400px; margin-left: -33px; margin-right: -30px; margin-top: -7px;"
+									>Conor McGregor: Uma reivindicação de aposentadoria muito preocupante feita com o
+									retorno do UFC se aproxima cada vez mais<br /></span
+							></a>
+						</div>
+					</div>
+				</div>
+				<div
+					class="smallsqrarts"
+					style="
+						margin-bottom: 10px;
+						margin-top: 10px;
+						margin-left: 10px;
+						margin-right: 10px;
+						background: url(assets/img/pav.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div id="smallsqrpictest" class="smallsqrpic">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; width: 65px;"
+						>
+							<span class="cattext">FUTEBOL</span>
+						</div>
+					</div>
+					<div class="smallsqrcontent">
+						<a
+							href="https://www.dailystar.co.uk/sport/football/716747/Transfer-window-World-Cup-2018-breakout-stars-rumours-signings-deals-sportgalleries"
+							target="_blank"
+							class="pagelinks"
+							><span class="recenttextnoimg" style="font-size: 14px; margin-top: 8px;"
+								><strong>10 estrelas da Copa do Mundo que são dignas...</strong><br /></span
+						></a>
+						<span class="recentartauthor">Por&nbsp;<strong>James Phillips</strong></span>
+					</div>
+				</div>
+				<div
+					class="smallsqrarts"
+					style="
+						margin-bottom: 10px;
+						margin-top: 10px;
+						margin-left: 10px;
+						background: url(assets/img/as.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div id="smallsqrpictest" class="smallsqrpic">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; background: brown; width: 35px;"
+						>
+							<span class="cattext">UFC</span>
+						</div>
+					</div>
+					<div class="smallsqrcontent">
+						<a
+							href="https://www.express.co.uk/sport/ufc/991539/UFC-News-Conor-McGregor-Anderson-Silva-Paulo-Costa"
+							target="_blank"
+							class="pagelinks"
+							><span class="recenttextnoimg" style="font-size: 13.5px; margin-top: 8px;"
+								><strong>Retorno de Conor McGregor, Anderson Silva...</strong><br /></span
+						></a>
+						<span class="recentartauthor">Por&nbsp;<strong>Chisanga Malata</strong></span>
+					</div>
+				</div>
+				<div id="rightsideart" style="margin-left: 0; margin-right: 10px;">
+					<div id="art465small1colortest" class="art465small" style="background: grey;">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; background: brown; width: 35px;"
+						>
+							<span class="cattext">UFC</span>
+						</div>
+						<div class="art465small1colortitlewrapper">
+							<a
+								href="https://www.express.co.uk/sport/ufc/991488/Conor-McGregor-Khabib-Nurmagomedov-UFC-230-Madison-Square-Garden-Fight-UFC-News"
+								target="_blank"
+								class="pagelinks"
+								><span
+									class="art465small1colortitle"
+									style="width: 400px; margin-left: -24px; margin-top: -9px;"
+									>Conor McGregor para lutar contra Khabib no UFC 230 em NY, ofertas foram feitas -
+									enorme reivindicação de Sonnen<br /></span
+							></a>
+						</div>
+					</div>
+				</div>
+				<div id="rightsideart" style="margin-left: 10px;">
+					<div id="art465small1colortest" class="art465small" style="background: darkorange;">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; background: brown; width: 35px;"
+						>
+							<span class="cattext">UFC</span>
+						</div>
+						<div class="art465small1colortitlewrapper">
+							<a
+								href="https://www.express.co.uk/sport/ufc/992070/UFC-News-Conor-McGregor-Khabib-Nurmagomedov-Colby-Covington"
+								target="_blank"
+								class="pagelinks"
+								><span class="art465small1colortitle"
+									>Alegação da data de Conor McGregor vs&nbsp;Khabib choca, Covington quebra
+									silêncio<br /></span
+							></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="ad950" style="margin-top: 50px;"></div>
+			<section id="footer">
+				<div id="footerlinkswrapper">
+					<a href="index.html" id="links"
+						><span id="footercompany" class="footerlink">OYO MAGAZINE</span></a
+					><a href="news.html" id="links"><span class="footerlink">NEWS</span></a
+					><a href="tech.html" id="links"><span class="footerlink">TECH/SCIENCE</span></a>
+					<a href="entertainment.html" id="links"><span class="footerlink">ENTERTAINMENT</span></a
+					><a href="life.html" id="links"><span class="footerlink">LIFESTYLE</span></a
+					><a href="ideas.html" id="links"><span class="footerlink">IDEAS</span></a
+					><a href="sports.html" id="links"><span class="footerlink">SPORTS</span></a>
+					<a href="#" id="links"><i class="fa fa-facebook-square socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-twitter socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-google-plus socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-instagram socialicons"></i></a>
+				</div>
+			</section>
+			<span id="copyright"
+				>©OYO Magazine. All Rights Reserved<br />Design and Development by<a href=""
+					><img src="assets/img/2.png" id="logo" /></a
+			></span>
+		</div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/ideasslide.js"></script>
+		<script src="assets/js/share.js"></script>
+		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		<script src="dist/bundle.js"></script>
+	</body>
+</html>

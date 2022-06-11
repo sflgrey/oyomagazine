@@ -1,0 +1,28 @@
+{
+  "name": "oyo",
+  "version": "1.0.0",
+  "description": "digital magazine",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t reactify assets/js/reactShare.js -o dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WagnerCenteio/oyo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WagnerCenteio/oyo/issues"
+  },
+  "homepage": "https://github.com/WagnerCenteio/oyo#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "babel": "^6.23.0",
+    "browserify": "^16.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-share": "^4.2.1",
+    "reactify": "^1.1.1"
+  }
+}

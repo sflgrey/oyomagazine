@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+		<title>OYO Magazine Final (Backup 1542998098010)</title>
+		<meta name="viewport" content="width=950px" />
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+
+	<body id="body">
+		<div
+			class="modal fade bd-example-modal-lg"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby=""
+			aria-hidden="true"
+		>
+			<div class="modal-dialog mw-100 w-75">
+				<div class="modal-content">
+					<iframe
+						id="oyoIframe"
+						style="border: none; height: 100vh; width: 100%;"
+						title="Iframe Example"
+					></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div
+			class="modal fade bd-example-modal-sm"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="mySmallModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Social Share</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="react-share-container"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="background-container">
+			<div id="ad950"></div>
+
+			<div class="nav-background">
+				<section id="nav">
+					<a href="index.html" id="links" style="margin-right: 20px !important;"
+						><span id="company" class="navlinks">OYO MAGAZINE</span></a
+					><a href="news.html" id="links"><span class="navlinks active">NEWS</span></a
+					><a href="tech.html" id="links"><span class="navlinks">TECH/SCIENCE</span></a>
+					<a href="entertainment.html" id="links"><span class="navlinks">ENTERTAINMENT</span></a
+					><a href="life.html" id="links"><span class="navlinks">LIFESTYLE</span></a
+					><a href="ideas.html" id="links"><span class="navlinks">IDEAS</span></a
+					><a href="sports.html" id="links"><span class="navlinks">SPORTS</span></a>
+					<i class="fa fa-search" id="searchicon"></i>
+				</section>
+			</div>
+			<!-- <span id="pagetitle">NEWS</span> -->
+			<section id="artsectionnews">
+				<div id="slidearea">
+					<div class="slideindex itactive" style="left: 48%;"></div>
+					<div class="slideindex" style="left: 50%;"></div>
+					<div class="slideindex" style="left: 52%;"></div>
+					<div
+						id="slide1"
+						class="ideasslide iactive"
+						style="
+							background: url(assets/img/tp.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="slidecontentwrapper">
+							<div class="slidecontent">
+								<div id="newsbigcat" class="bigcat"><span class="cattext">POLÍTICA</span></div>
+								<span class="slidetitle"
+									>Esta Semana Em Trump: Perguntas Russas Seguem O Presidente Para Helsinque E
+									Voltam<br /></span
+								><span class="slidebody"
+									>O presidente Donald Trump diz que agora quer uma segunda reunião com o russo
+									Vladimir Putin.<br
+								/></span>
+								<a
+									href="https://www.usatoday.com/story/news/politics/2018/07/20/trumps-week-russian-questions-follow-president-helsinki-and-back/808278002/"
+									target="_blank"
+									class="pagelinks"
+									><button class="btn btn-primary slidebtn" type="button">Ler Mais</button></a
+								>
+								<button
+									class="btn btn-primary highlightedbtn share-btn"
+									onclick="webShare({title:'test'})"
+								>
+									<i class="fa fa-share-alt"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div
+						id="slide2"
+						class="ideasslide"
+						style="
+							background: url(assets/img/cim.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="slidecontentwrapper">
+							<div class="slidecontent">
+								<div id="newsbigcat" class="bigcat" style="width: 48px; background: brown;">
+									<span class="cattext">CPLP</span>
+								</div>
+								<span class="slidetitle"
+									>CPLP com agenda ambiciosa para os próximos dois anos<br /></span
+								><span class="slidebody" style="margin-top: 30px;"
+									>OS chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa
+									(CPLP) concluíram os trabalhos da XII Cimeira, durante dois dias, na Ilha do Sal,
+									em Cabo Verde, levando para casa uma agenda carregada para a dinamização da
+									organização no biénio 2018-2020.<br
+								/></span>
+								<a
+									href="http://www.jornalnoticias.co.mz/index.php/politica/79814-cplp-com-agenda-ambiciosa-para-os-proximos-dois-anos"
+									target="_blank"
+									class="pagelinks"
+									><button class="btn btn-primary slidebtn" type="button">Ler Mais</button></a
+								>
+								<button
+									class="btn btn-primary highlightedbtn share-btn"
+									onclick="webShare({title:'test'})"
+								>
+									<i class="fa fa-share-alt"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div
+						id="slide3"
+						class="ideasslide"
+						style="
+							background: url(assets/img/usanc.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="slidecontentwrapper">
+							<div class="slidecontent">
+								<div id="newsbigcat" class="bigcat" style="background: green;">
+									<span class="cattext">POLÍTICA</span>
+								</div>
+								<span class="slidetitle"
+									>EUA pede à ONU manutenção de sanções para pressionar Coreia do Norte</span
+								><span class="slidebody" style="margin-top: 50px;"
+									>O secretário de Estado americano Mike Pompeo reuniu-se nesta Sexta-feira (20) com
+									o Conselho de Segurança da ONU e pediu para o grupo manter a pressão sobre a
+									Coreia do Norte.<br
+								/></span>
+								<a
+									href="http://opais.co.ao/index.php/2018/07/21/eua-pede-a-onu-manutencao-de-sancoes-para-pressionar-coreia-do/"
+									target="_blank"
+									class="pagelinks"
+									><button class="btn btn-primary slidebtn" type="button">Ler Mais</button></a
+								>
+								<button
+									class="btn btn-primary highlightedbtn share-btn"
+									onclick="webShare({title:'test'})"
+								>
+									<i class="fa fa-share-alt"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="leftsideart">
+					<div
+						id="srq465test"
+						class="sqr465"
+						style="
+							background: url(assets/img/netf.png);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="sqr465contentwrapper">
+							<div
+								id="testbigcat"
+								class="bigcat"
+								style="margin-left: 20px; margin-top: 20px; background: seagreen; width: 30px;"
+							>
+								<span class="cattext">TV</span>
+							</div>
+							<div class="sqr465content">
+								<a
+									href="https://www.bbc.com/news/business-44904368"
+									target="_blank"
+									class="pagelinks"
+									><span class="sqr465title"
+										>Como a Netflix passou de pioneira a&nbsp;potência<br /></span></a
+								><span class="sqr465body"
+									>Quando a Netflix começou em 1999, como um serviço de DVD por encomenda, poucos
+									apostariam que se tornaria uma força que até as maiores empresas de mídia
+									temem.<br
+								/></span>
+							</div>
+						</div>
+					</div>
+					<div class="art465small" style="margin-top: 10px;">
+						<div
+							id="art465smallimgtest"
+							class="art465smallsqrs"
+							style="
+								background: url(assets/img/cb.jpg);
+								background-position: center;
+								background-size: cover;
+							"
+						>
+							<div
+								id="testbigcat"
+								class="bigcat"
+								style="margin-left: 20px; margin-top: 20px; width: 60px; background: darkturquoise;"
+							>
+								<span class="cattext">MUNDO</span>
+							</div>
+						</div>
+						<div id="art465smallcontentwrapper" class="art465smallsqrs">
+							<div class="art465smallcontent">
+								<a
+									href="http://www.euronews.com/2018/07/22/israel-evacuates-hundreds-of-syria-s-white-helmets-to-jordan"
+									target="_blank"
+									class="pagelinks"
+									><span class="art465smalltitle" style="margin-top: -18px;"
+										>Israel evacua centenas de capacetes brancos da Síria para a Jordânia<br /></span
+								></a>
+								<span class="art465smallauthor">Por&nbsp;<strong>Alice Cuddy</strong></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					id="rightsideart"
+					style="
+						background: url(assets/img/cplp.jpg);
+						background-position: center;
+						background-size: cover;
+						height: 222.5px;
+						margin-bottom: 11px;
+					"
+				>
+					<div
+						id="art465small1colortest"
+						class="art465small"
+						style="background: rgba(0, 0, 0, 0.5);"
+					>
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; width: 48px; background: brown;"
+						>
+							<span class="cattext">CPLP</span>
+						</div>
+						<div class="art465small1colortitlewrapper">
+							<a
+								href="http://opais.co.ao/index.php/2018/07/22/angola-assina-acordo-para-agricultura-familiar-na-cplp/"
+								target="_blank"
+								class="pagelinks"
+								><span class="art465small1colortitle" style="margin-top: 18px;"
+									>Angola Assina Acordo Para Agricultura Familiar Na CPLP</span
+								></a
+							>
+						</div>
+					</div>
+				</div>
+				<div id="recent">
+					<div id="recenttitlewrapper"><span id="recentitle">Recent News</span></div>
+					<div class="recentover">
+						<div class="recentart">
+							<div
+								id="recentpictest"
+								class="recentartpic"
+								style="
+									background: url(assets/img/mm.jpg);
+									background-position: center;
+									background-size: cover;
+								"
+							></div>
+							<div class="recenttext">
+								<a
+									href="https://www.bbc.com/news/world-asia-china-41206772"
+									target="_blank"
+									class="pagelinks"
+									><span class="recentarttitle" style="margin-top: 8px;"
+										>As mega-máquinas ajudando a China a ligar o mundo.<br /></span></a
+								><span class="recentartauthor">Por&nbsp;<strong>Tom Calver</strong></span>
+							</div>
+						</div>
+						<div class="recentart">
+							<a href="https://www.bbc.com/news/business-44763110" target="_blank" class="pagelinks"
+								><span class="recenttextnoimg" style="font-size: 15px;"
+									><strong>6 maneiras como a China poderia retaliar...</strong><br /></span></a
+							><span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Ana Nicolaci da Costa</strong></span
+							>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.theglobeandmail.com/world/article-trump-tweets-that-newly-released-documents-show-his-campaign-was/"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg" style="font-size: 15px;"
+									><strong>Trump twitta que documentos afirmam...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Zeke Miller</strong></span
+							>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.washingtonpost.com/politics/americans-give-trump-negative-marks-for-helsinki-performance/2018/07/22/832ec2be-8d19-11e8-a345-a1bf7847b375_story.html?utm_term=.f0c4fd430142"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg" style="font-size: 15px;"
+									><strong>Americanos dão notas negativas para Trump...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Scott Clement e Dan Balz</strong></span
+							>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.usatoday.com/story/opinion/2018/07/22/blame-barack-obama-russian-interference-our-2016-election-readers/816068002/"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg" style="font-size: 15px; margin-top: 7px;"
+									><strong>Culpam Barack Obama pela interferência russa...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>USA Today</strong></span
+							>
+						</div>
+						<div class="recentart">
+							<a
+								href="https://www.theguardian.com/us-news/2018/jul/22/trump-administration-releases-carter-page-wiretap-documents"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg" style="font-size: 15px; margin-top: 7px;"
+									><strong>Trump-Rússia: FBI acredita que Carter Page "colaborou e...</strong
+									><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>The Guardian</strong></span
+							>
+						</div>
+					</div>
+				</div>
+				<div id="newsartsmallsqrs">
+					<div
+						class="smallsqrarts"
+						style="
+							background: url(assets/img/ang.png);
+							background-position: center;
+							background-size: cover;
+							margin-bottom: 10px;
+						"
+					>
+						<div id="smallsqrpictest" class="smallsqrpic">
+							<div
+								id="testbigcat"
+								class="bigcat"
+								style="
+									margin-left: 20px;
+									margin-top: 20px;
+									margin-top: 20px;
+									width: 60px;
+									background: darkturquoise;
+								"
+							>
+								<span class="cattext">MUNDO</span>
+							</div>
+						</div>
+						<div class="smallsqrcontent">
+							<a
+								href="http://opais.co.ao/index.php/2018/07/22/conferencia-internacional-de-ecoturismo-apresenta-a-biodiversidade-de-angola/"
+								target="_blank"
+								class="pagelinks"
+								><span class="recenttextnoimg" style="font-size: 14px; margin-top: 8px;"
+									><strong>Conferência Internacional de Ecoturismo apresenta...</strong><br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 10%;"
+								>Por&nbsp;<strong>Isabel Dala</strong></span
+							>
+						</div>
+					</div>
+					<div
+						id="smallsqrfullpictest"
+						class="smallsqrarts"
+						style="
+							margin-top: 10px;
+							background: url(assets/img/gc.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="smallsqrfullpiccontentwrapper">
+							<div id="testbigcat" class="bigcat" style="background: darkcyan;">
+								<span class="cattext">ECONOMIA</span>
+							</div>
+							<a href="https://www.bbc.com/news/business-44914145" target="_blank" class="pagelinks"
+								><span class="smallsrqfullpictitle" style="margin-top: 0px;"
+									>"Guerra comercial é uma realidade", ministro das Finanças da França adverte<br /></span
+							></a>
+							<span style="margin-top: 15px; font-size: 12px;"><em>Por&nbsp;</em>&nbsp;BBC</span>
+						</div>
+					</div>
+				</div>
+				<div id="narrownewsart">
+					<div
+						id="narrowart1"
+						class="narrowfullarts"
+						style="
+							background: url(assets/img/p.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="narrowartcontentwrapper">
+							<a
+								href="http://www.cbn.co.za/news/uae-pledges-10bn-in-investment-south-africa-says.html"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowartstitle"
+									>"Emirados Árabes Unidos promete US $ 10 bilhões em investimentos"<br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 20px;"
+								>Por&nbsp;<strong>Cape Business News</strong></span
+							>
+						</div>
+					</div>
+					<div
+						id="narrowart1"
+						class="narrowfullarts"
+						style="
+							background: url(assets/img/jee.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="narrowartcontentwrapper">
+							<a
+								href="https://www.usatoday.com/story/money/cars/2018/07/21/fiat-chrysler-ceo-mike-manley-sergio-marchionne-jeep-fca/813126002/"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowartstitle"
+									>Novo CEO da FCA Mike Manley parece repetir a magia do Jeep...<br /></span
+							></a>
+							<span class="recentartauthor" style="margin-left: 20px;"
+								>Por&nbsp;<strong>Mark Phelan</strong></span
+							>
+						</div>
+					</div>
+					<div
+						id="narrowart1"
+						class="narrowfullarts"
+						style="
+							background: url(assets/img/ch.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="narrowartcontentwrapper">
+							<a
+								href="https://edition.cnn.com/2018/07/21/europe/world-returns-to-1930s-intl/index.html"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowartstitle"
+									>Estamos voltando ao caos dos anos 1930?<br /></span></a
+							><span class="recentartauthor" style="margin-left: 20px;"
+								>Por&nbsp;<strong>Tim Lister</strong></span
+							>
+						</div>
+					</div>
+				</div>
+				<div class="narrowart465">
+					<div id="narrowart465-1">
+						<div class="narrowarts465contentwrapper">
+							<div
+								id="narrowarts465pic1"
+								class="narrowarts465pic"
+								style="
+									background: url(assets/img/trp.png);
+									background-position: center;
+									background-size: cover;
+								"
+							></div>
+							<span class="narroarts465cat">Negócios</span
+							><a
+								href="http://www.euronews.com/2018/07/20/trump-accuses-china-and-eu-of-currency-manipulation"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowarts465title" style="margin-top: -2px;"
+									>Trump acusa a China e a UE de manipulação...<br /></span
+							></a>
+						</div>
+					</div>
+					<div id="narrowart465-1">
+						<div class="narrowarts465contentwrapper">
+							<div
+								id="narrowarts465pic1"
+								class="narrowarts465pic"
+								style="
+									background: url(assets/img/mb.jpg);
+									background-position: center;
+									background-size: cover;
+								"
+							></div>
+							<span class="narroarts465cat">Política</span
+							><a
+								href="https://www.washingtonpost.com/politics/russian-billionaire-with-us-investments-backed-alleged-agent-maria-butina-according-to-a-person-familiar-with-her-senate-testimony/2018/07/22/dcaa7f48-8c58-11e8-a345-a1bf7847b375_story.html?utm_term=.608cfd6116e5"
+								target="_blank"
+								class="pagelinks"
+								><span class="narrowarts465title" style="font-size: 13px;"
+									>Bilionário russo com investimentos nos...<br /></span
+							></a>
+						</div>
+					</div>
+				</div>
+				<div
+					id="narrowartsmalltest"
+					class="narrowartssmall"
+					style="
+						margin-right: 10px;
+						background: url(assets/img/hiv.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="narrowartsmallcontentwrapper">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; width: 60px; background: olive;"
+						>
+							<span class="cattext">SAÚDE</span>
+						</div>
+						<a href="https://www.bbc.com/news/health-44884593" target="_blank" class="pagelinks"
+							><span class="narrowartsmalltitle"
+								>'Complacência perigosa' para ressurgimento...<br /></span
+						></a>
+					</div>
+				</div>
+				<div
+					id="narrowartsmalltest"
+					class="narrowartssmall"
+					style="
+						margin-left: 10px;
+						background: url(assets/img/mok.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="narrowartsmallcontentwrapper">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; width: 60px; background: olive;"
+						>
+							<span class="cattext">SAÚDE</span>
+						</div>
+						<a
+							href="http://www.cbn.co.za/news/south-africans-are-drinking-themselves-to-death.html"
+							target="_blank"
+							class="pagelinks"
+							><span class="narrowartsmalltitle">Sul-africanos estão bebendo até a morte<br /></span
+						></a>
+					</div>
+				</div>
+				<div id="rightsideart" style="margin-left: 0; margin-right: 10px;">
+					<div id="art465small1colortest" class="art465small" style="background: goldenrod;">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; width: 60px; background: darkturquoise;"
+						>
+							<span class="cattext">MUNDO</span>
+						</div>
+						<div class="art465small1colortitlewrapper">
+							<a
+								href="https://www.rtp.pt/noticias/mundo/estudo-403-milhoes-vitimas-de-escravatura-moderna_n1088696"
+								target="_blank"
+								class="pagelinks"
+								><span class="art465small1colortitle" style="margin-top: 25px;"
+									>Estudo: 40,3 milhões vítimas de escravatura moderna<br /></span
+							></a>
+						</div>
+					</div>
+				</div>
+				<div
+					class="smallsqrarts"
+					style="margin-bottom: 10px; margin-top: 10px; margin-left: 10px; margin-right: 10px;"
+				>
+					<div
+						id="smallsqrpictest"
+						class="smallsqrpic"
+						style="
+							background: url(assets/img/cp.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; background: darkcyan;"
+						>
+							<span class="cattext">ECONOMIA</span>
+						</div>
+					</div>
+					<div class="smallsqrcontent">
+						<a
+							href="http://www.cbn.co.za/component/k2/sa-businesses-happy-with-progress-of-angolan-trade-and-investment-mission.html"
+							target="_blank"
+							class="pagelinks"
+							><span class="recenttextnoimg" style="font-size: 13.8px; margin-top: 8px;"
+								><strong>Negócios SA satisfeitos com o progresso da missão</strong><br /></span
+						></a>
+						<span class="recentartauthor">Por&nbsp;<strong>Cape Business News</strong></span>
+					</div>
+				</div>
+				<div class="smallsqrarts" style="margin-bottom: 10px; margin-top: 10px; margin-left: 10px;">
+					<div
+						id="smallsqrpictest"
+						class="smallsqrpic"
+						style="
+							background: url(assets/img/tamp.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; width: 60px; background: darkturquoise;"
+						>
+							<span class="cattext">MUNDO</span>
+						</div>
+					</div>
+					<div class="smallsqrcontent">
+						<a
+							href="https://elpais.com/internacional/2018/07/22/actualidad/1532269945_467781.html"
+							target="_blank"
+							class="pagelinks"
+							><span class="recenttextnoimg" style="font-size: 14px; margin-top: 8px;"
+								><strong>Índia elimina o imposto sobre absorventes...</strong><br /></span
+						></a>
+						<span class="recentartauthor">Por&nbsp;<strong>Ángel L. Martínez Cantera</strong></span>
+					</div>
+				</div>
+				<div id="rightsideart" style="margin-left: 0; margin-right: 10px;">
+					<div id="art465small1colortest" class="art465small" style="background: midnightblue;">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; background: green;"
+						>
+							<span class="cattext">POLÍTICA</span>
+						</div>
+						<div class="art465small1colortitlewrapper">
+							<a
+								href="https://www.washingtonpost.com/politics/russian-billionaire-with-us-investments-backed-alleged-agent-maria-butina-according-to-a-person-familiar-with-her-senate-testimony/2018/07/22/dcaa7f48-8c58-11e8-a345-a1bf7847b375_story.html?utm_term=.7b42d0d7b67d"
+								target="_blank"
+								class="pagelinks"
+								><span
+									class="art465small1colortitle"
+									style="width: 400px; margin-top: -18px; margin-left: -23px;"
+									>Bilionário russo com investimentos nos EUA apoiou a alegada agente Maria Butina,
+									de acordo com uma pessoa familiarizada com seu depoimento no Senado<br /></span
+							></a>
+						</div>
+					</div>
+				</div>
+				<div id="rightsideart" style="margin-left: 10px;">
+					<div id="art465small1colortest" class="art465small">
+						<div
+							id="testbigcat"
+							class="bigcat"
+							style="margin-left: 20px; margin-top: 20px; background: green;"
+						>
+							<span class="cattext">POLÍTICA</span>
+						</div>
+						<div class="art465small1colortitlewrapper">
+							<a
+								href="http://opais.co.ao/index.php/2018/07/22/angola-e-marrocos-preparam-terceira-reuniao-bilateral/"
+								target="_blank"
+								class="pagelinks"
+								><span class="art465small1colortitle" style="margin-top: 15px;"
+									>Angola e Marrocos preparam terceira reunião bilateral</span
+								></a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="ad950" style="margin-top: 50px;"></div>
+			<section id="footer">
+				<div id="footerlinkswrapper">
+					<a href="index.html" id="links"
+						><span id="footercompany" class="footerlink">OYO MAGAZINE</span></a
+					><a href="news.html" id="links"><span class="footerlink">NEWS</span></a
+					><a href="tech.html" id="links"><span class="footerlink">TECH/SCIENCE</span></a>
+					<a href="entertainment.html" id="links"><span class="footerlink">ENTERTAINMENT</span></a
+					><a href="life.html" id="links"><span class="footerlink">LIFESTYLE</span></a
+					><a href="ideas.html" id="links"><span class="footerlink">IDEAS</span></a
+					><a href="sports.html" id="links"><span class="footerlink">SPORTS</span></a>
+					<a href="#" id="links"><i class="fa fa-facebook-square socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-twitter socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-google-plus socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-instagram socialicons"></i></a>
+				</div>
+			</section>
+			<span id="copyright"
+				>©OYO Magazine. All Rights Reserved<br />Design and Development by<a href=""
+					><img src="assets/img/2.png" id="logo" /></a
+			></span>
+		</div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/ideasslide.js"></script>
+		<script src="assets/js/share.js"></script>
+		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		<script src="dist/bundle.js"></script>
+	</body>
+</html>

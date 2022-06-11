@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+		<title>OYO Magazine Final (Backup 1542998098010)</title>
+		<meta name="viewport" content="width=950px" />
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+
+	<body id="body">
+		<div
+			class="modal fade bd-example-modal-lg"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby=""
+			aria-hidden="true"
+		>
+			<div class="modal-dialog mw-100 w-75">
+				<div class="modal-content">
+					<iframe
+						id="oyoIframe"
+						style="border: none; height: 100vh; width: 100%;"
+						title="Iframe Example"
+					></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div
+			class="modal fade bd-example-modal-sm"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="mySmallModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Social Share</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="react-share-container"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="background-container">
+			<div id="ad950"></div>
+
+			<div class="nav-background">
+				<section id="nav">
+					<a href="index.html" id="links" style="margin-right: 20px !important;"
+						><span id="company" class="navlinks">OYO MAGAZINE</span></a
+					><a href="news.html" id="links"><span class="navlinks">NEWS</span></a
+					><a href="tech.html" id="links"><span class="navlinks">TECH/SCIENCE</span></a>
+					<a href="entertainment.html" id="links"><span class="navlinks">ENTERTAINMENT</span></a
+					><a href="life.html" id="links"><span class="navlinks active">LIFESTYLE</span></a
+					><a href="ideas.html" id="links"><span class="navlinks">IDEAS</span></a
+					><a href="sports.html" id="links"><span class="navlinks">SPORTS</span></a>
+					<i class="fa fa-search" id="searchicon"></i>
+				</section>
+			</div>
+
+			<!-- <span id="pagetitle">LIFESTYLE</span> -->
+			<section id="lifearts">
+				<div id="lifeslides">
+					<div class="slideindex itactive" style="left: 48%;"></div>
+					<div class="slideindex" style="left: 50%;"></div>
+					<div class="slideindex" style="left: 52%;"></div>
+					<div
+						id="lifeshowcase1"
+						class="ideasslide iactive"
+						style="
+							background: url(assets/img/theragun.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div id="lifeshowcasecontent">
+							<span id="lifeshowcasetitle"
+								>Tudo sobre o Theragun, o despositivo de automassagem que está dominando
+								Instagram<br /></span
+							><span class="lifeshowcaseauthor">Por Leah Prinzivalli<br /></span
+							><a
+								href="https://www.self.com/story/about-the-theragun-self-massage-device"
+								target="_blank"
+								class="pagelinks"
+								><button class="btn btn-primary" type="button" id="lifeshowcasebtn">
+									Ler Artigo
+								</button></a
+							>
+							<button
+								class="btn btn-primary highlightedbtn share-btn"
+								onclick="webShare({title:'test'})"
+							>
+								<i class="fa fa-share-alt"></i>
+							</button>
+						</div>
+					</div>
+					<div
+						id="lifeshowcase2"
+						class="ideasslide"
+						style="
+							background: url(assets/img/md.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div id="lifeshowcasecontent">
+							<span id="lifeshowcasetitle"
+								>Eu dei a minha mãe uma viagem de mãe e filha e foi o melhor presente de sempre<br /></span
+							><span class="lifeshowcaseauthor">Por Annie Daly<br /></span
+							><a
+								href="https://www.self.com/story/gifts-for-mom-mother-daughter-trip"
+								target="_blank"
+								class="pagelinks"
+								><button class="btn btn-primary" type="button" id="lifeshowcasebtn">
+									Ler Artigo
+								</button></a
+							>
+							<button
+								class="btn btn-primary highlightedbtn share-btn"
+								onclick="webShare({title:'test'})"
+							>
+								<i class="fa fa-share-alt"></i>
+							</button>
+						</div>
+					</div>
+					<div
+						id="lifeshowcase3"
+						class="ideasslide"
+						style="
+							background: url(assets/img/lun.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div id="lifeshowcasecontent">
+							<span id="lifeshowcasetitle"
+								>7 almoços facéis e saúdaveis que voçe pode preparar está semana<br /></span
+							><span class="lifeshowcaseauthor">Por Christine Byrne<br /></span
+							><a
+								href="https://www.self.com/gallery/seven-lunches-6"
+								target="_blank"
+								class="pagelinks"
+								><button class="btn btn-primary" type="button" id="lifeshowcasebtn">
+									Ler Artigo
+								</button></a
+							>
+							<button
+								class="btn btn-primary highlightedbtn share-btn"
+								onclick="webShare({title:'test'})"
+							>
+								<i class="fa fa-share-alt"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div
+					id="life475test"
+					class="life475art"
+					style="
+						background: url(assets/img/fear.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="life475content">
+						<a
+							href="https://www.self.com/story/what-scared-women-most-before-getting-married"
+							target="_blank"
+							class="pagelinks"
+							><span class="lifearttitle"
+								>11 Mulheres Compartilham O Que Mais As Assustou Antes de Se Casar<br /></span
+						></a>
+						<div id="whitebar"></div>
+					</div>
+				</div>
+				<div
+					id="lifesqrtest"
+					class="lifesqrart"
+					style="
+						background: url(assets/img/DSC_0512.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="lifesqrcontent">
+						<a
+							href="https://www.self.com/story/exactly-how-to-start-workout-program-without-joining-gym"
+							target="_blank"
+							class="pagelinks"
+							><span class="lifearttitle" style="margin-top: 20%;"
+								>Como Iniciar Um Plano de Treino Legitimo Sem Ingresar Em Um Ginásio<br /></span
+						></a>
+						<div id="whitebar"></div>
+					</div>
+				</div>
+				<div
+					id="lifesqrtest"
+					class="lifesqrart"
+					style="
+						background: url(assets/img/tess.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="lifesqrcontent">
+						<a
+							href="https://www.self.com/gallery/plus-size-clothing-brands"
+							target="_blank"
+							class="pagelinks"
+							><span class="lifearttitle" style="margin-top: 30%;"
+								>7 Excelentes Marcas de Moda Plus Size, Segundo Tess Holliday<br /></span
+						></a>
+						<div id="whitebar"></div>
+					</div>
+				</div>
+				<div class="lifesqrart">
+					<div
+						id="lifesqrhalftest"
+						class="lifesqrhalf"
+						style="
+							background: url(assets/img/lose.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="lifesqrhalfcontent">
+							<a
+								href="https://www.self.com/story/lose-weight-this-year-tips"
+								target="_blank"
+								class="pagelinks"
+								><span class="lifesqrhalftitle" style="margin-top: 10%;"
+									>8 Coisas A Ter Em Mente Se Você Quer Perder Peso Este Ano<br /></span
+							></a>
+							<div id="whitebar"></div>
+						</div>
+					</div>
+					<div
+						id="lifesqrhalftest"
+						class="lifesqrhalf"
+						style="
+							background: url(assets/img/coffee.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="lifesqrhalfcontent">
+							<a
+								href="https://www.self.com/story/we-really-need-to-stop-complimenting-people-on-weight-loss"
+								target="_blank"
+								class="pagelinks"
+								><span class="lifesqrhalftitle" style="margin-top: 13%;"
+									>Precisamos Parar de Elogiar as Pessoas com Perdas de Peso<br /></span
+							></a>
+							<div id="whitebar"></div>
+						</div>
+					</div>
+				</div>
+				<div
+					id="lifesqrtest"
+					class="lifesqrart"
+					style="
+						background: url(assets/img/sug.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="lifesqrcontent">
+						<a
+							href="https://www.self.com/story/why-fear-of-sugar-addiction-may-be-more-toxic-than-sugar-is"
+							target="_blank"
+							class="pagelinks"
+							><span class="lifearttitle" style="margin-top: 30%;"
+								>Por que o Medo do ''Vício do Açucar'' Pode Ser Mais Tóxico do que o Açúcar<br /></span
+						></a>
+						<div id="whitebar"></div>
+					</div>
+				</div>
+				<div class="life475art">
+					<div
+						id="lifesqrhalftest"
+						class="lifesqrhalf"
+						style="
+							background: url(assets/img/IMG_6203.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="lifesqrhalfcontent">
+							<a
+								href="https://www.self.com/story/how-to-pickle-any-vegetable"
+								target="_blank"
+								class="pagelinks"
+								><span class="lifesqrhalftitle" style="margin-top: 10%;"
+									>Como Conservar Qualquer Vegetal<br /></span
+							></a>
+							<div id="whitebar"></div>
+						</div>
+					</div>
+					<div
+						id="lifesqrhalftest"
+						class="lifesqrhalf"
+						style="
+							background: url(assets/img/icecream.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="lifesqrhalfcontent">
+							<a
+								href="https://www.self.com/story/delicious-ice-cream-at-home-without-an-ice-cream-maker"
+								target="_blank"
+								class="pagelinks"
+								><span class="lifesqrhalftitle" style="margin-top: 9%;"
+									>Como Fazer Deliciosos Sorvetes Em Casa<br /></span
+							></a>
+							<div id="whitebar"></div>
+						</div>
+					</div>
+				</div>
+				<div
+					id="lifesqrtest"
+					class="lifesqrart"
+					style="
+						background: url(assets/img/kate-hudson.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="lifesqrcontent">
+						<a
+							href="https://www.self.com/story/pilates-exercises-kate-hudson-pregnancy"
+							target="_blank"
+							class="pagelinks"
+							><span class="lifearttitle" style="margin-top: 30%;"
+								>3 Exercicios de Pilates que Kate Hudson Está Fazendo Durante a Gravidez<br /></span
+						></a>
+						<div id="whitebar"></div>
+					</div>
+				</div>
+				<div
+					id="life475test"
+					class="life475art"
+					style="
+						background: url(assets/img/am.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="life475content">
+						<a
+							href="#https://www.self.com/story/everyday-athletes"
+							target="_blank"
+							class="pagelinks"
+							><span class="lifearttitle"
+								>Atletas Cotidianas Falam Sobre o que Significa Forças para Eles<br /></span
+						></a>
+						<div id="whitebar"></div>
+					</div>
+				</div>
+				<div
+					id="lifesqrtest"
+					class="lifesqrart"
+					style="
+						background: url(assets/img/breakup.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="lifesqrcontent">
+						<a href="#" class="pagelinks"
+							><span class="lifearttitle" style="margin-top: 15%;"
+								>7 Mulheres Mostram Fotos das Coisas Supreendentes que as Ajudaram a Superar um
+								Rompimento<br /></span
+						></a>
+						<div id="whitebar"></div>
+					</div>
+				</div>
+			</section>
+			<div id="ad950" style="margin-top: 50px;"></div>
+			<section id="footer">
+				<div id="footerlinkswrapper">
+					<a href="index.html" id="links"
+						><span id="footercompany" class="footerlink">OYO MAGAZINE</span></a
+					><a href="news.html" id="links"><span class="footerlink">NEWS</span></a
+					><a href="tech.html" id="links"><span class="footerlink">TECH/SCIENCE</span></a>
+					<a href="entertainment.html" id="links"><span class="footerlink">ENTERTAINMENT</span></a
+					><a href="life.html" id="links"><span class="footerlink">LIFESTYLE</span></a
+					><a href="ideas.html" id="links"><span class="footerlink">IDEAS</span></a
+					><a href="sports.html" id="links"><span class="footerlink">SPORTS</span></a>
+					<a href="#" id="links"><i class="fa fa-facebook-square socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-twitter socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-google-plus socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-instagram socialicons"></i></a>
+				</div>
+			</section>
+			<span id="copyright"
+				>©OYO Magazine. All Rights Reserved<br />Design and Development by<a href=""
+					><img src="assets/img/2.png" id="logo" /></a
+			></span>
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/ideasslide.js"></script>
+		<script src="assets/js/share.js"></script>
+		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		<script src="dist/bundle.js"></script>
+	</body>
+</html>

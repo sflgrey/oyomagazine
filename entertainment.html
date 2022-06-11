@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+		<title>OYO Magazine Final (Backup 1542998098010)</title>
+		<meta name="viewport" content="width=950px" />
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+
+	<body id="body">
+		<div
+			class="modal fade bd-example-modal-lg"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby=""
+			aria-hidden="true"
+		>
+			<div class="modal-dialog mw-100 w-75">
+				<div class="modal-content">
+					<iframe
+						id="oyoIframe"
+						style="border: none; height: 100vh; width: 100%;"
+						title="Iframe Example"
+					></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div
+			class="modal fade bd-example-modal-sm"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="mySmallModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Social Share</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="react-share-container"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="background-container">
+			<div id="ad950"></div>
+
+			<div class="nav-background">
+				<section id="nav">
+					<a href="index.html" id="links" style="margin-right: 20px !important;"
+						><span id="company" class="navlinks">OYO MAGAZINE</span></a
+					><a href="news.html" id="links"><span class="navlinks">NEWS</span></a
+					><a href="tech.html" id="links"><span class="navlinks">TECH/SCIENCE</span></a>
+					<a href="entertainment.html" id="links"
+						><span class="navlinks active">ENTERTAINMENT</span></a
+					><a href="life.html" id="links"><span class="navlinks">LIFESTYLE</span></a
+					><a href="ideas.html" id="links"><span class="navlinks">IDEAS</span></a
+					><a href="sports.html" id="links"><span class="navlinks">SPORTS</span></a>
+					<i class="fa fa-search" id="searchicon"></i>
+				</section>
+			</div>
+			<!-- <span id="pagetitle">ENTERTAINMENT</span> -->
+			<section id="entertainmentarts">
+				<div
+					id="ent465test"
+					class="sqr465"
+					style="
+						background: url(assets/img/eh.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat">CINEMA</span
+						><a
+							href="https://editorial.rottentomatoes.com/article/mission-impossible-fallout-early-reviews-one-of-the-best-action-movies-ever/"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle" style="margin-left: 2px;"
+								>MISSÃO: IMPOSSÍVEL - FALLOUT, REVISÕES ANTECIPADAS: UM DOS MELHORES FILMES DE AÇÃO
+								DE TODOS OS TEMPOS?<br /></span
+						></a>
+						<div id="whitebar2"></div>
+						<span class="entartbody"
+							>Críticos até agora aclamam a mais recente aventura de Ethan Hunt como não apenas o
+							melhor da série, mas possivelmente um grande sucesso de todos os tempos<br
+						/></span>
+					</div>
+				</div>
+				<div
+					id="entsmalltest"
+					class="entsmall222art"
+					style="
+						background: url(assets/img/bean.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat" style="margin-top: 13%;">CINEMA</span
+						><a
+							href="https://www.looper.com/89321/whatever-happened-rowan-atkinson/?utm_source=zergnet.com&amp;utm_medium=referral&amp;utm_campaign=zergnet_3100663&amp;utm_content=3"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle" style="margin-left: 3px;"
+								>O QUE ACONTECEU COM ROWAN ATKINSON<br /></span></a
+						><span class="entartbody">Por Looper</span>
+					</div>
+				</div>
+				<div
+					id="entsmalltest"
+					class="entsmall222art"
+					style="
+						margin-right: 0;
+						background: url(assets/img/dr.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat" style="margin-top: 6%;">MÚSICA</span
+						><a
+							href="https://www.billboard.com/articles/columns/chart-beat/8466120/drake-scorpion-album-heading-for-third-week-at-no-1-on-billboard-200-chart-wiz-khalifa"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle"
+								>"SCORPION", DE DRAKE NA 3ª SEMANA NO 1º DO BILLBOARD 200<br /></span
+						></a>
+						<span class="entartbody">Por Keith Caulfield</span>
+					</div>
+				</div>
+				<div
+					id="entart465smalltest"
+					class="entart465small"
+					style="
+						background: url(assets/img/walking-dead-mayans-mc.jpg);
+						background-size: cover;
+						background-position: center;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat" style="margin-top: 8%;">TV</span
+						><a
+							href="https://deadline.com/2018/07/the-walking-dead-jack-ryan-marvel-mayans-m-c-comic-con-marketing-san-diego-1202428832/"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle"
+								>'THE WALKING DEAD', 'JACK RYAN', MARVEL e 'MAYANS MC' DOMINAM MARKETING DA
+								COMIC-CON<br /></span
+						></a>
+						<span class="entartbody">Por Dominic Patten <br />e Patrick Hipes</span>
+					</div>
+				</div>
+				<div
+					id="ent306arttest"
+					class="ent306art"
+					style="
+						margin-right: 10px;
+						background: url(assets/img/gm.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat" style="margin-top: 7%;">TV</span
+						><a
+							href="http://www.adorocinema.com/noticias/series/noticia-141693/"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle"
+								>LONGE DE GAME OF THRONES HÁ DOIS ANOS, NATALIE DORMER DIZ QUE JÁ SABE COMO A SÉRIE
+								TERMINA<br /></span
+						></a>
+						<div id="whitebar2"></div>
+						<span class="entartbody">Por Laysa Zanetti</span>
+					</div>
+				</div>
+				<div
+					id="ent306arttest"
+					class="ent306art"
+					style="
+						margin-right: 10px;
+						margin-left: 10px;
+						background: url(assets/img/jk.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat" style="margin-top: 17%;">CINEMA</span
+						><a
+							href="https://www.billboard.com/articles/news/8466116/joker-origin-movie-joaquin-phoenix-lands-fall-2019-release-date"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle"
+								>FILME SOBRE ORIGEM DE 'JOKER' TEM DATA DE LANÇAMENTO PARA OUTONO DE 2019</span
+							></a
+						>
+						<div id="whitebar2"></div>
+						<span class="entartbody">Por Pamela McClintock e Borys Kit<br /></span>
+					</div>
+				</div>
+				<div
+					id="ent306arttest"
+					class="ent306art"
+					style="
+						background: url(assets/img/mvs.jpg);
+						margin-left: 10px;
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat" style="margin-top: 24%;">CINEMA</span
+						><a
+							href="https://www.looper.com/117396/underappreciated-movies-already-missed-2018/?utm_source=zergnet.com&amp;utm_medium=referral&amp;utm_campaign=zergnet_3086489&amp;utm_content=3"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle">FILMES SUBESTIMADOS QUE VOCÊ JÁ PERDEU EM 2018</span></a
+						>
+						<div id="whitebar2"></div>
+						<span class="entartbody">Por Looper</span>
+					</div>
+				</div>
+				<div id="videoarea">
+					<i class="fa fa-chevron-left videobtns" id="videoarrowleft"></i>
+					<div class="videos vactive">
+						<div class="video" style="margin-right: 10px;">
+							<span class="videotitle">ARRANHA-CÉUS<br /></span>
+							<div
+								id="video1"
+								class="videoactual"
+								style="
+									background: url(assets/img/sk.jpg);
+									background-position: center;
+									background-size: cover;
+								"
+							>
+								<a
+									href="http://www.adorocinema.com/filmes/filme-203842/trailer-19557807/"
+									target="_blank"
+									class="pagelinks"
+									><i class="fa fa-play-circle-o playbtn"></i
+								></a>
+							</div>
+							<span class="videauthor"><strong>Por AdoroCinema</strong></span>
+						</div>
+						<div class="video" style="margin-right: 10px; margin-left: 10px;">
+							<span class="videotitle">A FREIRA</span>
+							<div
+								id="video1"
+								class="videoactual"
+								style="
+									background: url(assets/img/nun.jpg);
+									background-position: center;
+									background-size: cover;
+								"
+							>
+								<a
+									href="http://www.adorocinema.com/filmes/filme-248258/trailer-19558934/"
+									target="_blank"
+									class="pagelinks"
+									><i class="fa fa-play-circle-o playbtn"></i
+								></a>
+							</div>
+							<span class="videauthor"><strong>Por AdoroCinema</strong><br /></span>
+						</div>
+						<div class="video" style="margin-left: 10px;">
+							<span class="videotitle">VENOM</span>
+							<div
+								id="video1"
+								class="videoactual"
+								style="
+									background: url(assets/img/ven.jpg);
+									background-position: center;
+									background-size: cover;
+								"
+							>
+								<a
+									href="http://www.adorocinema.com/filmes/filme-138473/trailer-19558442/"
+									target="_blank"
+									class="pagelinks"
+									><i class="fa fa-play-circle-o playbtn"></i
+								></a>
+							</div>
+							<span class="videauthor">Por AdoroCinema<br /></span>
+						</div>
+					</div>
+					<div class="videos">
+						<div class="video" style="margin-right: 10px;">
+							<span class="videotitle">MEGATUBARÃO</span>
+							<div
+								id="video1"
+								class="videoactual"
+								style="
+									background: url(assets/img/meg.jpg);
+									background-position: center;
+									background-size: cover;
+								"
+							>
+								<a
+									href="http://www.adorocinema.com/filmes/filme-58275/"
+									target="_blank"
+									class="pagelinks"
+									><i class="fa fa-play-circle-o playbtn"></i
+								></a>
+							</div>
+							<span class="videauthor"><strong>Por AdoroCinema</strong></span>
+						</div>
+						<div class="video" style="margin-right: 10px; margin-left: 10px;">
+							<span class="videotitle">MI: FALLOUT</span>
+							<div
+								id="video1"
+								class="videoactual"
+								style="
+									background: url(assets/img/fall.jpg);
+									background-position: center;
+									background-size: cover;
+								"
+							>
+								<a
+									href="http://www.adorocinema.com/filmes/filme-238132/"
+									target="_blank"
+									class="pagelinks"
+									><i class="fa fa-play-circle-o playbtn"></i
+								></a>
+							</div>
+							<span class="videauthor">Por AdoroCinema<br /></span>
+						</div>
+						<div class="video" style="margin-left: 10px;">
+							<span class="videotitle" style="font-size: 14.5px;">MAMMA MIA! 2<br /></span>
+							<div
+								id="video1"
+								class="videoactual"
+								style="
+									background: url(assets/img/mmi.jpg);
+									background-position: center;
+									background-size: cover;
+								"
+							>
+								<a
+									href="http://www.adorocinema.com/filmes/filme-256399/trailer-19557697/"
+									target="_blank"
+									class="pagelinks"
+									><i class="fa fa-play-circle-o playbtn"></i
+								></a>
+							</div>
+							<span class="videauthor">Por AdoroCinema<br /></span>
+						</div>
+					</div>
+					<i class="fa fa-chevron-right videobtns" id="videoarrowright"></i>
+				</div>
+				<div
+					id="entart222longtest"
+					class="entart222long"
+					style="
+						margin-right: 10px;
+						background: url(assets/img/jw.jpg);
+						background-size: cover;
+						background-position: center;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat">CINEMA</span
+						><a
+							href="http://www.adorocinema.com/noticias/filmes/noticia-134088/"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle"
+								>JOHN WICK 3 GANHA DATA DE ESTREIA NOS ESTADOS UNIDOS</span
+							></a
+						>
+						<div id="whitebar2"></div>
+						<span class="entartbody">Por Rodrigo Torres</span>
+					</div>
+				</div>
+				<div
+					id="ent465test"
+					class="sqr465"
+					style="
+						margin-top: 10px;
+						margin-left: 10px;
+						background: url(assets/img/ss.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat">CINEMA</span
+						><a
+							href="https://www.looper.com/128601/the-real-reasons-skyscraper-bombed-at-the-box-office/?utm_source=zergnet.com&amp;utm_medium=referral&amp;utm_campaign=zergnet_3099592&amp;utm_content=3"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle"
+								>AS VERDADEIRAS RAZÕES QUE 'ARRANHA-CÉUS' BOMBOU NAS BILHETERIAS</span
+							></a
+						>
+						<div id="whitebar2"></div>
+						<span class="entartbody">Por Looper</span>
+					</div>
+				</div>
+				<div
+					id="entsmalltest"
+					class="entsmall222art"
+					style="
+						margin-right: 0;
+						margin-top: 10px;
+						background: url(assets/img/gs.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat" style="margin-top: 10%;">MÚSICA</span
+						><a
+							href="https://www.nickiswift.com/21089/what-happened-to-the-guy-who-sang-gangnam-style/?utm_source=zergnet.com&amp;utm_medium=referral&amp;utm_campaign=zergnet_2828466&amp;utm_content=185"
+							target="_blank"
+							class="pagelinks"
+							><span
+								class="entarttitle"
+								style="margin-left: 3px; margin-right: 3px; font-size: 18px;"
+								>O QUE ACONTECEU COM O CARA QUE CANTOU GANGNAM STYLE?</span
+							></a
+						><span class="entartbody">Por Nicky Swift</span>
+					</div>
+				</div>
+				<div
+					id="entsmalltest"
+					class="entsmall222art"
+					style="
+						margin-right: 0;
+						margin-top: 10px;
+						background: url(assets/img/x.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat" style="margin-top: 4%;">MÚSICA</span
+						><a
+							href="https://pagesix.com/2018/06/21/xxxtentacions-death-gives-birth-to-sick-new-internet-trend/?utm_source=zergnet.com&amp;utm_medium=referral&amp;utm_campaign=zergnet_3034883"
+							target="_blank"
+							class="pagelinks"
+							><span
+								class="entarttitle"
+								style="font-size: 18px; margin-left: 2px; margin-right: 2px;"
+								>A MORTE DE XXXTENTACION DÁ ORIGEM A NOVA TENDÊNCIA DOENTIA NA INTERNET</span
+							></a
+						><span class="entartbody">Por Tamar Lapin<br /></span>
+					</div>
+				</div>
+				<div class="bau">
+					<div
+						id="entart465smalltest"
+						class="entart465small"
+						style="
+							margin-top: 0;
+							margin-left: 0;
+							background: url(assets/img/sp.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="entartcontent">
+							<span class="entartcat" style="margin-top: 15%;">TV E CINEMA</span
+							><a
+								href="https://www.looper.com/58711/movies-will-blow-everyone-away-2019/?utm_source=zergnet.com&amp;utm_medium=referral&amp;utm_campaign=zergnet_2655682&amp;utm_content=3"
+								target="_blank"
+								class="pagelinks"
+								><span class="entarttitle"
+									>FILMES E PROGRAMAS DE TV QUE VÃO ACABAR COM TODOS EM 2019</span
+								></a
+							><span class="entartbody">Por Looper</span>
+						</div>
+					</div>
+					<div
+						id="entart465smalltest"
+						class="entart465small"
+						style="
+							margin-left: 0;
+							background: url(assets/img/lp.jpg);
+							background-position: center;
+							background-size: cover;
+						"
+					>
+						<div class="entartcontent">
+							<span class="entartcat" style="margin-top: 15%;">CINEMA</span
+							><a
+								href="https://www.looper.com/49098/best-movies-youve-already-missed-2017/?utm_source=zergnet.com&amp;utm_medium=referral&amp;utm_campaign=zergnet_2794345&amp;utm_content=3"
+								target="_blank"
+								class="pagelinks"
+								><span class="entarttitle">FILMES SUBESTIMADOS QUE VOCÊ PERDEU EM 2017</span></a
+							><span class="entartbody">Por Looper</span>
+						</div>
+					</div>
+				</div>
+				<div
+					id="ent465test"
+					class="sqr465"
+					style="
+						margin-top: 10px;
+						margin-left: 10px;
+						margin-right: 0;
+						background: url(assets/img/pc.jpg);
+						background-position: center;
+						background-size: cover;
+					"
+				>
+					<div class="entartcontent">
+						<span class="entartcat">TV</span
+						><a
+							href="https://www.nationalgeographic.com/tv/genius/"
+							target="_blank"
+							class="pagelinks"
+							><span class="entarttitle">GENIUS: PICASSO<br /></span
+						></a>
+						<div id="whitebar2"></div>
+						<span class="entartbody"
+							>Série de antologia com foco nas histórias não contadas dos inovadores mais brilhantes
+							do mundo. A temporada 2 vai focar no Pablo Picasso.<br
+						/></span>
+					</div>
+				</div>
+			</section>
+			<div id="ad950" style="margin-top: 50px;"></div>
+			<section id="footer">
+				<div id="footerlinkswrapper">
+					<a href="index.html" id="links"
+						><span id="footercompany" class="footerlink">OYO MAGAZINE</span></a
+					><a href="news.html" id="links"><span class="footerlink">NEWS</span></a
+					><a href="tech.html" id="links"><span class="footerlink">TECH/SCIENCE</span></a>
+					<a href="entertainment.html" id="links"><spa class="footerlink">ENTERTAINMENT</spa></a
+					><a href="life.html" id="links"><span class="footerlink">LIFESTYLE</span></a
+					><a href="ideas.html" id="links"><span class="footerlink">IDEAS</span></a
+					><a href="sports.html" id="links"><span class="footerlink">SPORTS</span></a>
+					<a href="#" id="links"><i class="fa fa-facebook-square socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-twitter socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-google-plus socialicons"></i></a
+					><a href="#" id="links"><i class="fa fa-instagram socialicons"></i></a>
+				</div>
+			</section>
+			<span id="copyright"
+				>©OYO Magazine. All Rights Reserved<br />Design and Development by<a href=""
+					><img src="assets/img/2.png" id="logo" /></a
+			></span>
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/share.js"></script>
+		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		<script src="dist/bundle.js"></script>
+	</body>
+</html>
